@@ -1,0 +1,59 @@
+h1 {
+  font-family: 'Lobster', Georgia, Times, serif;
+  font-size: 70px;
+  line-height: 100px;
+}
+p {
+  font-family: 'Cabin', Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+#global-container {
+  min-height: 100%;
+  position: relative;
+  background: url("/images/gradient.png") repeat-x;
+  background-attachment: fixed;
+}
+#header {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  background: url("/images/gradient.png") repeat-x;
+}
+#title {
+  text-align: center;
+}
+a#title {
+  text-decoration: none;
+  color: #000;
+}
+#navbar {
+  text-align: center;
+}
+#navbar a {
+  color: #000;
+  font-family: 'Cabin', Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+}
+#navbar li {
+  display: inline;
+}
+#content {
+  position: relative;
+  padding: 0 55px 45px 55px;
+}
+#footer {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: -25px;
+}
